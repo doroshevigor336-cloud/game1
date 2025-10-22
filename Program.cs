@@ -12,7 +12,7 @@ class Program
             return new Dictionary<string, string>
             {
                 //Русский язык
-                {"begin", "Игрок №1 вводит первое слово:"},
+                {"begin", "Игрок №1 вводит первое слово (длина - от 8 до 30 символов):"},
                 {"select", "Выбран русский язык."},
                 {"press", "Нажмите любую клавишу, чтобы продолжить."},
                 {"errlen", "Задано слово неверной длины!"},
@@ -31,7 +31,7 @@ class Program
             return new Dictionary<string, string>
             {
                 //Английский язык
-                {"begin", "Player 1 enters the first word:"},
+                {"begin", "Player 1 enters the first word (expected length - from 8 to 30 symbols):"},
                 {"select", "English language was chosen."},
                 {"press", "Press any button to continue."},
                 {"errlen", "Incorrect length!"},
@@ -284,3 +284,4 @@ class Program
     }
 
 }
+
